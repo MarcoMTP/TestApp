@@ -1,0 +1,23 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.encuentas.fragment.EncuestaFragment">
+
+
+
+
+    <EditText
+        android:id="@+id/fragment_our_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:gravity="center" />
+
+    <Button
+        android:id="@+id/fragment_our_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fragment_our_edit_text"
+        android:layout_centerHorizontal="true" />
+</FrameLayout>
